@@ -28,7 +28,7 @@ void parse_args(int argc, char *argv[], uint16_t *port, uint16_t *server_port, u
 {
     if (argc < 5 || argc > 6)
     {
-        printf("Usage: ./netfk <port> <server_port> <ms_to_server> <ms_to_client> [<max_queued_packets>]\n");
+        printf("Usage: ./laten <port> <server_port> <ms_to_server> <ms_to_client> [<max_queued_packets>]\n");
         exit(1);
     }
 
